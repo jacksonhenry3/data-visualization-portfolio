@@ -1,0 +1,15 @@
+U.S. Population Distrobution
+
+There is a tendancy for people to move to urban areas. By looking at the population of each county in the united states we can see the distribution of the population. It becomes emediatly evident that people are concentrated at the coasts.
+
+
+
+Global Temperture
+
+This is one of my favorite data explorations. I find using non-traditional media and interactivity is used far to rarely and makes data more memorable. Showing this to people I have heard much more viceral reactions. This audio chart uses surface temperature anomaly <a href="http://www.ncdc.noaa.gov/cag/time-series/global/globe/land_ocean/ytd/12/1880-2013">data from the NOAA</a> . The higher the pitch of the audio the warmer the planet. This data is the yearly deviation from the 20th century average in degrees Celsius from 1880 to 2013. The temperature deviation data is then linearly mapped to an A major scale spreading over 8 octaves. The tone switches every 300ms representing the data for the next year.
+      
+      <a href = 'http://jacksonhenry3.github.io/Synth/dataToAudio/'>Check it out</a>
+      
+Live Frequency
+
+using new web audio standards i was able to use the browser to acces the mic and in real time do a fourier transform on the signal. I've been working on a tool to use this to teach people about audio processing,but in the mean time i created this. 
