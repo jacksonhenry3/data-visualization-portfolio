@@ -1,0 +1,83 @@
+body {
+  background: #f6f4ef;
+  color: #333;
+  font-family: 'Roboto Slab', serif;
+  overflow-x: hidden; }
+
+.top-bar {
+  height: 1vw;
+  background: #333;
+  width: 110vw;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  min-height: 5px; }
+
+.item-container {
+  text-align: center;
+  padding: 15px; }
+
+.item {
+  display: inline-block;
+  width: 100%;
+  padding-top: 100%;
+  background: rgba(50, 50, 50, 0.2);
+  border-radius: 50%;
+  background-position: center;
+  background-size: 100%;
+  border: 6px solid #333;
+  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.5);
+  transition: all .5s;
+  cursor: pointer; }
+
+.item:hover {
+  -ms-transform: rotate(7deg);
+  /* IE 9 */
+  -webkit-transform: rotate(7deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(7deg); }
+
+.usPop {
+  background-image: url("../../media/usPop.jpg"); }
+
+.EandM {
+  background-image: url("../../media/eandM.jpg"); }
+
+.FourCirc {
+  background-image: url("../../media/FourCirc.png"); }
+
+.listenToWarming {
+  background-image: url("../../media/listenToWarming.png"); }
+
+.header {
+  text-align: center;
+  padding: 5vw;
+  padding-top: 3vw; }
+  .header h1 {
+    font-weight: light;
+    font-family: 'Raleway', sans-serif; }
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  .header h1 {
+    font-size: 70px; } }
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  .header h1 {
+    font-size: 90px; } }
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .header h1 {
+    font-size: 120px; } }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  .header h1 {
+    font-size: 120px; } }
+
+/*# sourceMappingURL=main.css.map */
