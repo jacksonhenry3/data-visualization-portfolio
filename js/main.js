@@ -7,7 +7,7 @@ $(".item").click( function() {
 	$('.purple').addClass('opaque')
 	$("#"+sectionName).toggleClass('hidden')
 }
-)
+) 
 
 $(".close").click( function() {
 	var sectionName = this.className.split(/\s+/)[1];
