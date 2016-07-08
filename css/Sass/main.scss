@@ -105,6 +105,10 @@ hr
     -webkit-transform: rotate(7deg);
 }
 
+a 
+{
+    font-size:14px;
+}
 
 .usPop
 {
@@ -152,7 +156,7 @@ h1
     text-align:center;
 }
 
-p 
+p,a 
 {
     font-size: 13.5pt;
     font-family: 'Roboto Slab', serif;

@@ -71,6 +71,9 @@ hr {
 .item:hover {
   -webkit-transform: rotate(7deg); }
 
+a {
+  font-size: 14px; }
+
 .usPop {
   background-image: url("../../media/usPop.svg"); }
 
@@ -99,7 +102,7 @@ h1 {
   font-family: 'Raleway', sans-serif;
   text-align: center; }
 
-p {
+p, a {
   font-size: 13.5pt;
   font-family: 'Roboto Slab', serif; }
 
